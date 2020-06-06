@@ -1,0 +1,150 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background:#3A3A3A;
+    color: #fff;
+    padding: 15px 0 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header-inner-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.logo{
+    width: 110px;
+    margin-right: 50px;
+}
+.wraper-ad-list-mainmenu{
+    width: 100%;
+}
+.wraper-ad-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 14px;
+}
+.wraper-ad-list > div{
+    width: 30%;
+    display: flex;
+}
+.wraper-ad-list ul li{
+    margin-bottom: 7px;
+}
+.wraper-ad-list ul li:last-child{
+    margin-bottom: 0;
+}
+.wraper-ad-list a{
+    color: #fff;
+}
+.phones{
+    justify-content: center;
+}
+.phones a{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 7px; 
+}
+.phones a:last-child{
+    margin-bottom: 0;
+}
+.worktime{
+    justify-content: flex-end;
+}
+.main-menu ul{
+    display: flex;
+}
+.main-menu li{
+    flex: 1 1 0px;
+}
+.main-menu li:first-child a{
+    background-color: #202020;
+}
+.main-menu a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    background-color: #323232;
+    text-align: center;
+    padding: 20px 25px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.banner{
+    background-color: #2a2a2a;
+}
+.banner-inner-wraper{
+    position: relative;
+    height: 440px;
+}
+.banner-inner-wraper img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 400px;
+}
+.wrapper-banner-info{
+    color: #fff;
+    padding: 100px 0;
+}
+.banner-info h2{
+    margin: 0  0 20px;
+}
+.banner-info p{
+    font-size: 14px;
+    line-height: 16px;
+}
+.button-banner{
+    padding: 15px 35px;
+    background-color: #58baa3;
+    border: solid 1px #fff;
+    color: #fff;
+    margin-top: 20px;
+}
+/*advantages*/
+.advantages{
+    background-color: #212121;
+    
+}
+.list-advantages{
+    display: flex;
+}
+.list-advantages li{
+    color: #979797;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    flex: 1 1 0px;
+    position: relative;
+    padding-left: 75px;
+    padding-right: 20px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.list-advantages li::before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/mouth-mirror.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    top: 20px;
+}
+/*services*/
+.services{
+    background-color: #fdfdfd;
+}
+.list-services{
+    width: calc(100%/3);
+}
+.list-services-wraper{
+    display: flex;
+    flex-wrap: wrap;
+}
